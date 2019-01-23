@@ -7,7 +7,7 @@
 using glm::vec3;
 using glm::vec4;
 using glm::mat4;
-using aie::Gizmos;
+using aie::Gizmos;   
 
 ballandstick::ballandstick()
 {
