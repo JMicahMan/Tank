@@ -61,19 +61,19 @@ void ballandstick::update(float deltaTime)
 			i == 10 ? white : black);
 	}
 	
-	//Gizmos::addTransform(mat4(1));
+	/*Gizmos::addTransform(mat4(1));
 
-	//Gizmos::addAABBFilled(vec3(0), vec3(1), vec4(0, 0.5f, 1, 0.25f));
-	//Gizmos::addSphere(vec3(0, 2, 0), 1, 8, 8, vec4(1, 0, 0, 0.5f));
-	//Gizmos::addDisk(vec3(0, 0, 0), 0.25, 1300, vec4(1, 1, 0, 1));
+	Gizmos::addAABBFilled(vec3(0), vec3(1), vec4(0, 0.5f, 1, 0.25f));
+	Gizmos::addSphere(vec3(0, 2, 0), 1, 8, 8, vec4(1, 0, 0, 0.5f));
+	Gizmos::addDisk(vec3(0, 0, 0), 0.25, 1300, vec4(1, 1, 0, 1));
 
-	//mat4 t = glm::rotate(mat4(1), time, glm::normalize(vec3(1, 1, 1)));
-	//t[3] = vec4(-2, 0, 0, 1);
-	//mat4 t = glm::rotate(mat4(1), 90.0f, glm::normalize(vec3(1, 1, 1)));
-	//Gizmos::addCylinderFilled(vec3(0,2.5,1.5), 0.125f, 2, 1300, vec4(0, 1, 1, 1), &t);
-
-	//Gizmos::add2DAABB(glm::vec2(getWindowWidth() / 2, 100),
-		//glm::vec2(getWindowWidth() / 2 * (fmod(getTime(), 3.f) / 3), 20),
+	mat4 n = glm::rotate(mat4(1), time, glm::normalize(vec3(1, 1, 1)));
+	n[3] = vec4(-2, 0, 0, 1);
+	mat4 b = glm::rotate(mat4(1), 90.0f, glm::normalize(vec3(1, 1, 1)));
+	Gizmos::addCylinderFilled(vec3(0,2.5,1.5), 0.125f, 2, 1300, vec4(0, 1, 1, 1), &b);
+*/
+//	Gizmos::add2DAABB(glm::vec2(getWindowWidth() / 2, 100),
+	//	glm::vec2(getWindowWidth() / 2 * (fmod(getTime(), 3.f) / 3), 20),
 		//vec4(0, 1, 1, 1));
 
 	aie::Input* input = aie::Input::getInstance();
